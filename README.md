@@ -6,3 +6,15 @@
    3. Register.jsx
    4. Install npm sass
    5. Design Register & Login with css
+4. Add Components folders
+   1. Add Chat Component
+      1. Chat.jsx
+      2. Input.jsx
+      3. Message.jsx
+      4. Messages.jsx
+   2. Add Sidebar Component
+      1. Chats.jsx
+      2. Navbar.jsx
+      3. Search.jsx
+      4. Sidebar.jsx
+   3. Add Styles folder
