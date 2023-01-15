@@ -1,3 +1,19 @@
+@mixin mobile {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
 @import './variables';
 
 /* ----------------------------------------------------------------------------------------------------
@@ -111,6 +127,9 @@ HOMEPAGE
     height: 80%;
     display: flex;
     overflow: hidden;
+    @include tablet {
+      width: 90%;
+    }
 
     /* ----------------------------------------------------------------------------------------------------
     SIDEBAR
@@ -118,6 +137,7 @@ HOMEPAGE
     .sidebar {
       flex: 1;
       background-color: $fourthColor;
+      position: relative;
 
       // ***** NAVBAR *****
       .navbar {
@@ -131,6 +151,9 @@ HOMEPAGE
 
         .logo {
           font-weight: bold;
+          @include tablet {
+            display: none;
+          }
         }
         .user {
           display: flex;
@@ -150,6 +173,10 @@ HOMEPAGE
             font-size: 10px;
             border: none;
             cursor: pointer;
+            @include tablet {
+              position: absolute;
+              bottom: 10px;
+            }
           }
         }
       }

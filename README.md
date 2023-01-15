@@ -18,3 +18,4 @@
       3. Search.jsx
       4. Sidebar.jsx
    3. Add Styles folder
+5. Sass Reponsive design
