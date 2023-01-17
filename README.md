@@ -19,3 +19,5 @@
       4. Sidebar.jsx
    3. Add Styles folder
 5. Sass Reponsive design
+6. Firebase & authentification
+   1. config Firebase
