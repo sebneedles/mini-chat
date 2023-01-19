@@ -25,3 +25,4 @@
    1. Add protected Route
 8. React firebase login with email & password
 9. Firebase Chat: Search User
+10. Firebase Chat: Database structure
