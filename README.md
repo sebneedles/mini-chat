@@ -21,3 +21,5 @@
 5. Sass Reponsive design
 6. Firebase & authentification
    1. config Firebase
+7. Add react-router-dom
+   1. Add protected Route
