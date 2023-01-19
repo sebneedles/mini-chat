@@ -24,3 +24,4 @@
 7. Add react-router-dom
    1. Add protected Route
 8. React firebase login with email & password
+9. Firebase Chat: Search User
