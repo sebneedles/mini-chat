@@ -23,3 +23,4 @@
    1. config Firebase
 7. Add react-router-dom
    1. Add protected Route
+8. React firebase login with email & password
